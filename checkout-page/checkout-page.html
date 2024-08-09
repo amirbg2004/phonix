@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phonix | Checkout</title>
+    <link rel="stylesheet" href="checkout-page.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="header-checkout">
+        <img src="css-img.jpg" alt="css-image" />
+        <div class="logo-carb">
+          <a href="../main-page/index.html" class="logo-button"> </a>
+        </div>
+        <div class="cart-carb">
+          <a href="../cart-page/cart.html" class="cart-button">
+            <img src="cartLogo.jpg" alt="Cart Page" />
+          </a>
+        </div>
+      </div>
+
+      <div class="checkout-section">
+        <div class="checkout-left">
+          <button class="gpay-button">
+            <img src="gpay-image.png" alt="Google Pay" />
+          </button>
+          <div class="or">
+            <span>OR</span>
+          </div>
+
+          <div class="contact-form">
+            <div class="contact-title">
+              <h3>Contact</h3>
+            </div>
+            <form>
+              <div class="form-group">
+                <input type="email" placeholder="Email or mobile phone number" required />
+              </div>
+              <div class="form-group">
+                <input type="checkbox" id="signup" />
+                <label for="signup"
+                  >Sign up for exclusive offers and news via text messages &amp; email.</label
+                >
+              </div>
+            </form>
+          </div>
+
+          <div class="section-delivery">
+            <h2>Delivery</h2>
+            <form>
+              <div class="form-group">
+                <label for="country">Country/Region</label>
+                <select id="country" required>
+                  <option value="Lebanon">Lebanon</option>
+                </select>
+              </div>
+              <div class="form-group half-width">
+                <input type="text" placeholder="First name" required />
+                <input type="text" placeholder="Last name" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Address" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Apartment, suite, etc. (optional)" />
+              </div>
+              <div class="form-group half-width">
+                <input type="text" placeholder="City" required />
+                <input type="text" placeholder="Postal code (optional)" />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Phone number for updates and exclusive offers" />
+              </div>
+              <div class="form-group">
+                <input type="checkbox" id="save-info" />
+                <label for="save-info">Save this information for next time</label>
+              </div>
+            </form>
+            <div class="shipping-method">
+              <p class="title">Shipping method</p>
+              <div class="option">
+                <p>Fast Delivery (2-3 Working Days)</p>
+                <p class="price">$2.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="divider-checkout"></div>
+
+        <div class="checkout-right">
+          <div class="order-summary">
+            <div class="header-summary">
+              <h2>Order Summary</h2>
+              <a href="#" class="show-hide" onclick="toggleOrderDetails()">Show</a>
+            </div>
+            <div class="order-details" style="display: none"></div>
+            <form id="discount-form">
+              <label for="discount-code"></label>
+              <input type="text" name="discount-code" placeholder="Discount Code" />
+              <button type="submit">Apply</button>
+            </form>
+            <div class="totals">
+              <div class="subtotal">
+                <p>Subtotal</p>
+                <p id="subtotal-price"></p>
+              </div>
+              <div class="shipping-summary">
+                <p>Shipping <span class="info">$2.99</span></p>
+              </div>
+              <div class="total-summary">
+                <p>Total</p>
+                <p class="total-amount"></p>
+              </div>
+            </div>
+            <button class="place-order">Place Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="checkout-page.js"></script>
+  </body>
+</html>

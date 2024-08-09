@@ -1,0 +1,509 @@
+.content {
+  background-color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  width: 100%;
+  color: #1e4974;
+}
+
+.header-checkout {
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.header-checkout img {
+  height: 80px;
+}
+
+.logo-button {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+}
+
+.cart-button {
+  height: 40px;
+}
+
+.cart-carb {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cart-carb img {
+  margin-right: 10px;
+  margin-top: -18px;
+  height: 70px;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 30px 0px;
+}
+
+.or::before,
+.or::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.or:not(:empty)::before {
+  margin-right: 0.5em;
+}
+
+.or:not(:empty)::after {
+  margin-left: 0.5em;
+}
+
+.or span {
+  padding: 0 10px;
+  color: #aaa;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.checkout-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #1e4974;
+  max-width: 100%;
+  padding: 20px 0;
+}
+
+.checkout-left {
+  color: #1e4974;
+  width: 52%;
+  margin-right: 40px;
+  margin-left: 50px;
+}
+
+.checkout-right {
+  color: #1e4974;
+  margin-right: 40px;
+  width: 40%;
+}
+
+.express-title {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 13px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gpay-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  height: 50px;
+  width: 40%;
+  font-size: 16px;
+  color: white;
+  background-color: #1e4974;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in-out;
+  margin-left: 300px;
+  margin-bottom: 20px;
+}
+
+.gpay-button img {
+  width: 20%;
+}
+
+.gpay-button:hover {
+  opacity: 1;
+}
+
+.divider-checkout {
+  width: 2px;
+  background-color: lightgrey;
+}
+
+.contact-form {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.contact-title h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.section-delivery {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.section-delivery h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+
+input[type="email"],
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+label {
+  font-size: 14px;
+  color: #666;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+  color: #aaa;
+}
+
+.half-width {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half-width input {
+  width: 48%;
+}
+
+.contact-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkout-title {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.option p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+.price {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.order-summary {
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.header-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.header-summary h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  font-weight: 600;
+}
+
+.header-summary {
+  color: #1e4974;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.show-hide {
+  color: #1e4974;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.order-details {
+  display: none;
+  margin: 10px 0;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.product-image {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 70px;
+}
+
+.quantity-circle {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  background-color: #1e4974;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.product-image img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-info p {
+  margin: 5px 10px;
+  font-size: 1rem;
+}
+
+.product-id {
+  color: #0000008f;
+  font-size: 12px;
+}
+
+.product-price {
+  white-space: nowrap;
+  margin-left: auto;
+}
+
+#discount-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#discount-form input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  margin-right: 10px;
+}
+
+#discount-form button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  background-color: whitesmoke;
+  color: grey;
+  cursor: pointer;
+}
+
+#discount-form button:hover {
+  background-color: #1e4974;
+  color: white;
+}
+
+.totals {
+  margin-top: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.totals .subtotal,
+.totals .shipping-summary,
+.totals .total-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.totals .total-summary {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.totals .total-summary .total-amount {
+  font-size: 18px;
+  color: #1e4974;
+}
+
+.totals div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  margin-left: 40.5em;
+  font-size: 1em;
+}
+
+.place-order {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e4974;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.place-order:hover {
+  background-color: #333;
+}
+
+@media screen and (max-width: 767px) {
+  .checkout-section {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .checkout-left,
+  .checkout-right {
+    width: 100%;
+    margin-left: 0px;
+    padding: 10px 0;
+  }
+
+  .gpay-button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .gpay-button img {
+    height: 50px;
+    width: 65px;
+  }
+
+  .contact-form,
+  .section-delivery,
+  .shipping-method,
+  .order-summary {
+    width: 100%;
+  }
+
+  .form-group.half-width input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .form-group.half-width {
+    flex-direction: column;
+  }
+
+  .place-order {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .gpay-button {
+    width: 100%;
+  }
+
+  .checkout-left {
+    padding: 10px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .contact-form {
+    padding: 10px;
+  }
+
+  .section-delivery {
+    padding: 10px;
+  }
+
+  .shipping-method {
+    padding: 10px;
+  }
+
+  .order-summary {
+    padding: 10px;
+  }
+
+  .discount-code input {
+    padding: 10px;
+  }
+
+  .discount-code button {
+    padding: 10px;
+  }
+
+  .place-order {
+    padding: 10px;
+  }
+}
