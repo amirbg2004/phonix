@@ -1,0 +1,158 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: min(100%, 560px);
+  margin: 1rem auto;
+  padding: 2.5rem;
+  margin-top: 3rem;
+}
+
+.login-container h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 25px;
+  color: #1e4974;
+  font-weight: 400;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+#login-form {
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-container > input {
+  border: none;
+  color: #1e4974;
+  background-color: #f4f4f4;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  padding: 13px 15px;
+}
+
+.form-container > button {
+  width: 100%;
+  padding: 15px 45px;
+  background-color: #1e4974;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.form-container > button:hover {
+  opacity: 0.9;
+}
+
+.login-container a {
+  display: block;
+  text-decoration: none;
+  color: #1e4974;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+.reset {
+  display: none;
+  width: min(100%, 1180px);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem auto;
+}
+
+.reset h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 25px;
+  color: #1e4974;
+  font-weight: 400;
+  font-size: 33px;
+  letter-spacing: 3px;
+  width: 100%;
+}
+
+#message {
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #1e4974;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.inner-reset button {
+  width: 100%;
+  padding: 15px 45px;
+  background-color: #1e4974;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: opacity 0.15s ease-in-out;
+}
+
+input-reset > button:hover {
+  opacity: 0.9;
+}
+
+.input-reset-container > input {
+  border: none;
+  color: #1e4974;
+  background-color: #f4f4f4;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  padding: 13px 15px;
+  width: 100%;
+}
+
+#cancel {
+  display: block;
+  color: #1e4974;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  margin-bottom: 12px;
+  border: none;
+  background-color: #ffffffd7;
+  cursor: pointer;
+}
+
+#alert-login-container,
+#alert-reset-container {
+  display: none;
+  width: 100%;
+  text-align: center;
+  background-color: #ec523e;
+  color: white;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#reset-response-container {
+  display: none;
+  width: 100%;
+  text-align: center;
+  background-color: #59ac6c;
+  color: white;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
