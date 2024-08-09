@@ -298,8 +298,8 @@ input[type="email"]::placeholder {
 .product-image {
   position: relative;
   display: inline-block;
-  width: 50%;
-  height: 50%;
+  width: 35%;
+  height: 35%;
 }
 
 .quantity-circle {
