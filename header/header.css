@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* --------- variables to be used, you can add other variables ------------------ */
+:root {
+  /* use for width: min(100%,var(--max-width)); */
+  --max-width: 1180px;
+  --primary-color: #1e4974;
+  --backgound-color: #f0f0f0;
+  --text-color: #0a2136;
+  --text-color1-light: #d4d4d4;
+  --text-color2-light: #aeabcc;
+  --accent-color: #24353f;
+  --shopping-items-size: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  user-select: none;
+  background-color: var(--backgound-color);
+}
+
+/* -------------- Start of NavBar styling -------------------------------------- */
+header h1 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+header a {
+  background-color: transparent;
+}
+
+header {
+  width: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--text-color2-light);
+}
+
+/* Can be used to make the page not go outside a certain width */
+header .page-width {
+  width: min(100%, var(--max-width));
+  padding: 0 10px;
+}
+
+header .upper-navbar,
+header .lower-navbar,
+header .sticky-navbar {
+  background-color: var(--primary-color);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .lower-navbar .page-width > a {
+  height: 100%;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+header .lower-navbar,
+header .sticky-navbar {
+  border-top: 0.01px solid var(--text-color2-light);
+  box-shadow: var(--text-color1-light) 0 10px 15px;
+}
+
+header .upper-navbar .page-width,
+header .lower-navbar .page-width,
+header .sticky-navbar .page-width {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: var(--primary-color);
+}
+
+header .upper-navbar svg,
+header .lower-navbar svg,
+header .sticky-navbar svg {
+  padding: 5px;
+}
+
+header .upper-navbar .title {
+  margin: 20px auto 20px 5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+header .upper-navbar .title a {
+  color: var(--text-color1-light);
+}
+
+header .lower-navbar .open-menu-button,
+header .sticky-navbar .open-menu-button {
+  color: var(--text-color2-light);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  height: 100%;
+  padding: 12px 10px;
+  margin-right: auto;
+}
+header .lower-navbar .open-menu-button svg,
+header .sticky-navbar .open-menu-button svg {
+  fill: var(--text-color2-light);
+}
+
+header .lower-navbar .open-menu-button:hover,
+header .lower-navbar a:hover,
+header .lower-navbar .open-menu-button:hover svg,
+header .sticky-navbar .open-menu-button:hover,
+header .sticky-navbar a:hover,
+header .sticky-navbar .open-menu-button:hover svg {
+  color: var(--text-color1-light);
+  fill: var(--text-color1-light);
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+header .search-navbar-form-open {
+  background-color: var(--text-color);
+  border-radius: 10px;
+  display: flex;
+  margin: 5px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .search-navbar-form-open input {
+  border-radius: 10px;
+  border: none;
+  background-color: var(--text-color);
+  padding: 10px 10px;
+  display: block;
+  color: var(--text-color1-light);
+  position: relative;
+  width: 200px;
+  animation: animate-searchbar-navbar-open 0.15s ease-in;
+}
+
+@keyframes animate-searchbar-navbar-open {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 200px;
+    opacity: 1;
+  }
+}
+@keyframes animate-searchbar-navbar-close {
+  0% {
+    width: 200px;
+    opacity: 1;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+header .search-navbar-form-open input:focus {
+  outline: none;
+}
+header .search-navbar-form-open:has(input:focus) {
+  border: 1px solid var(--text-color1-light);
+}
+header .search-navbar-form-open button[type="submit"],
+header .search-navbar-form-close button[type="submit"],
+header .search-navbar-form-close {
+  background-color: transparent;
+  border: none;
+  padding: 3px;
+  cursor: pointer;
+}
+
+header .lower-navbar .page-width > div:not(.open-menu-button),
+header .search-navbar-form-close input,
+header .sticky-active .page-width > a,
+header .upper-navbar .open-menu-button,
+header .sticky-navbar:not(.sticky-active) {
+  display: none;
+}
+
+header .sticky-active,
+header .sticky-navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header .sticky-active .page-width > div,
+header .sticky-navbar .page-width > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .shopping-bag-button {
+  position: relative;
+}
+
+header .shopping-bag-button::after {
+  content: var(--shopping-items-size);
+  font-size: small;
+  text-align: center;
+  color: var(--text-color1-light);
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  translate: 15% -20%;
+  border-radius: 50px;
+  background-color: var(--accent-color);
+}
+
+@media (max-width: 750px) {
+  header .upper-navbar .open-menu-button {
+    display: block;
+    cursor: pointer;
+  }
+  header .upper-navbar .open-menu-button:hover svg {
+    fill: var(--text-color);
+    transition: fill 0.15s ease;
+  }
+  header .lower-navbar,
+  header .upper-navbar form,
+  header .sticky-navbar {
+    display: none;
+  }
+  header .upper-navbar .page-width {
+    width: 100%;
+    justify-content: space-between;
+  }
+  header .upper-navbar .title {
+    margin: 0;
+    text-align: center;
+  }
+  header .upper-navbar {
+    box-shadow: var(--text-color1-light) 0 10px 15px;
+  }
+}
+
+/* ------------------- End of NavBar Styling ------------------------------------------------- */
+
+#side-bar {
+  z-index: 150;
+  top: 0;
+  width: 0;
+  left: -300px;
+  position: absolute;
+  transition: 0.25s ease-in-out;
+}
+#side-bar.sidebar-Open {
+  top: 0;
+  left: 0;
+}
+
+#side-bar.sidebar-Open ~ #nextSideBar-Container {
+  transform: translateX(300px);
+  transition: 0.4s ease-in-out;
+  width: 100dvw;
+  position: fixed;
+}
+#side-bar ~ #nextSideBar-Container {
+  transition: 0.1s ease-in-out;
+}
