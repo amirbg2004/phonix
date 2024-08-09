@@ -1,10 +1,8 @@
-let inputInvalidDiv = document.querySelector(".input-invalid");
-let sendMessageButton = document.querySelector(".send-message-button");
-let nameInput = document.querySelector("input #name");
-let form = document.querySelector("#contact-us-form");
-
 let footerURL = "../footer/footer.html";
 let headerURL = "../header/header.html";
+
+let questionContainers = document.querySelectorAll(".question-container");
+let questionAnswerContainers = document.querySelectorAll(".question-answer-container");
 
 async function fetchFooter() {
   try {
@@ -53,3 +51,28 @@ async function fetchHeader() {
 
 fetchFooter();
 fetchHeader();
+
+function handleFAQClick(event) {
+  let container = event.currentTarget;
+  let plusSign = container.querySelector(".question-container .faq-plus-sign");
+  let answer = container.querySelector(".faq-answer");
+  // Toggle plus sign
+  plusSign.textContent = plusSign.textContent === "+" ? "-" : "+";
+  plusSign.classList.toggle("toggled");
+  console.log(answer.style.display);
+  // Toggle answer visibility
+  if (answer.style.display === "none" || answer.style.display === "") {
+    answer.style.display = "block";
+  } else {
+    answer.style.display = "none";
+  }
+}
+
+function questionAnswerContainerListeners() {
+  questionAnswerContainers.forEach((container) => {
+    container.addEventListener("click", handleFAQClick);
+  });
+}
+
+// Initialize event listeners
+questionAnswerContainerListeners();
