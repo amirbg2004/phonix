@@ -118,7 +118,6 @@
   cursor: pointer;
   opacity: 0.9;
   transition: opacity 0.3s ease-in-out;
-  margin-left: 300px;
   margin-bottom: 20px;
 }
 
@@ -292,11 +291,15 @@ input[type="email"]::placeholder {
   padding-bottom: 10px;
 }
 
+.product-item p:not(.product-id) {
+  font-size: 0.8em;
+}
+
 .product-image {
   position: relative;
   display: inline-block;
-  width: 80px;
-  height: 70px;
+  width: 50%;
+  height: 50%;
 }
 
 .quantity-circle {

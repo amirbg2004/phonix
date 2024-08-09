@@ -86,7 +86,7 @@ function createProductPrice(productPrice) {
 function displayOrderDetails() {
   cartCheckoutItems.cartItems.forEach((item) => {
     let productItem = createProductItem();
-    let productImage = createProductImage(item.product.imageURL[0], item.quantity);
+    let productImage = createProductImage(item.product.imageURL[1], item.quantity);
     let productInfo = createProductInfo(item.product.itemName, item.product.color[0]);
     var price =
       (item.product.itemPrice - (item.product.itemPrice * item.product.discount) / 100) *
