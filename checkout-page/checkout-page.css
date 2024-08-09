@@ -424,7 +424,7 @@ input[type="email"]::placeholder {
 }
 
 .place-order:hover {
-  background-color: #333;
+  background-color: #0d3965;
 }
 
 @media screen and (max-width: 767px) {
