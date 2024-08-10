@@ -4,7 +4,7 @@ Welcome to the **Phonix** repository! This project is a frontend for an e-commer
 
 ## 🤝🏻 Meet the Team
 
-- [Amir Bou Ghanem](https://github.com/member1-username)
+- [Amir Bou Ghanem](https://github.com/amirbg2004)
 - [Ayman Dandan](https://github.com/aymandandan)
 - [Bahaa Adraa](https://github.com/bahaa-adraa)
 - [Cyrine Ahmad](https://github.com/cyrineAhmad)
