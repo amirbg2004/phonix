@@ -64,18 +64,18 @@ let displayProducts = () => {
     searchResult = urlparam.get("collection");
     if (searchResult) {
       const cases = {
-        "i-phone-case": "iPhone Cases",
-        "samsung-phone-case": "Samsung Cases",
-        "steering-wheel": "Steering Wheels",
-        "airpod-case": "AirPods Cases",
-        "key-holders": "Key Holders",
-        "slim-wallet": "Wallets",
-        "iqos-holder": "Iqos Holder",
-        "paddle-shifter": "Paddle Shifters",
+        iphone: "iPhones",
+        samsung: "Samsung Phones",
+        google: "Google Phones",
+        huawei: "Huawei Phones",
+        nothing: "Nothing Phones",
+        oneplus: "OnePlus Phones",
+        tecno: "Tecno Phones",
+        infinix: "Infinix Phones",
         "car-key-cover": "Car Key Covers",
         all: "All Phones",
       };
-      result.innerHTML = `Real Carbon Fiber <br> ${cases[searchResult] || ""}`;
+      result.innerHTML = `${cases[searchResult] || ""}`;
       if (searchResult == "all") {
         Database.fetchAllProducts().then((products) => {
           // console.log(products);
