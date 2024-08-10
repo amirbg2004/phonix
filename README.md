@@ -13,7 +13,7 @@ Welcome to the **Phonix** repository! This project is a frontend for an e-commer
 - [Mhammad Houjairy](https://github.com/mhmdhouj)
 - [Raghad Rashed1](https://github.com/RaghadRashed1)
 - [Sarah Fakih](https://github.com/Sarahfakiih)
-- [Sami Ibrahim](https://github.com/(member-username))
+- [Sami Ibrahim](https://github.com/Samiibrahim1)
 
 
 ## 🚀 Features
