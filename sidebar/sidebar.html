@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phonix | Sidebar</title>
+    <link rel="stylesheet" href="./sidebar.css" />
+  </head>
+  <body>
+    <div id="sidebar">
+      <form id="search-bar" action="../results-page/results.html">
+        <input
+          type="search"
+          id="search-input"
+          name="search-question"
+          placeholder="What are you looking for?"
+        />
+        <button id="search-icon">
+          <img src="../database/images/icons/search.svg" />
+        </button>
+      </form>
+      <div class="option title">
+        <a href="../main-page/index.html">HOME PAGE</a>
+      </div>
+      <div class="option"><a data-filter="iphone">iPHONE</a></div>
+      <div class="option"><a data-filter="samsung">SAMSUNG</a></div>
+      <div class="option"><a data-filter="google">GOOGLE</a></div>
+      <div class="option"><a data-filter="huawei">HUAWEI</a></div>
+      <div class="option"><a data-filter="tecno">TECNO</a></div>
+      <div class="option"><a data-filter="nothing">NOTHING</a></div>
+      <div class="option"><a data-filter="oneplus">ONEPLUS</a></div>
+      <div class="option"><a data-filter="infinix">INFINIX</a></div>
+      <div class="option title">
+        <a>ACCOUNT</a>
+      </div>
+    </div>
+    <script src="./sidebar.js"></script>
+  </body>
+</html>
