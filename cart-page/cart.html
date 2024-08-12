@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phonix | Cart Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="cart.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <div id="header"></div>
+
+    <div class="empty-container">
+      <div id="empty">
+        <h1>CART IS EMPTY!</h1>
+      </div>
+    </div>
+
+    <div class="cart-container">
+      <h1 class="title">SHOPPING BAG</h1>
+      <table class="cart-table">
+        <tbody class="item-container"></tbody>
+      </table>
+
+      <div class="other">
+        <div class="checkout">
+          <div class="instr">
+            <label for="instr">SPECIAL INSTRUCTIONS FOR SELLER</label><br />
+            <textarea name="instr" id="instr" class="note" style="height: 152px"></textarea>
+          </div>
+
+          <div class="total-price">
+            <h2>$<span id="total-price">0</span></h2>
+          </div>
+          <div class="checkout-container">
+            <button onclick="checkout()" class="checkout-button">CHECK OUT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+    <script src="cart.js"></script>
+    <script src="../database/databaseFn.js"></script>
+  </body>
+</html>
