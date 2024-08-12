@@ -86,10 +86,17 @@ function createProductPrice(productPrice) {
 function displayOrderDetails() {
   cartCheckoutItems.cartItems.forEach((item) => {
     let productItem = createProductItem();
-    let productImage = createProductImage(item.product.imageURL[1], item.quantity);
-    let productInfo = createProductInfo(item.product.itemName, item.product.color[0]);
+    let productImage = createProductImage(
+      item.product.imageURL[1],
+      item.quantity
+    );
+    let productInfo = createProductInfo(
+      item.product.itemName,
+      item.product.color[0]
+    );
     var price =
-      (item.product.itemPrice - (item.product.itemPrice * item.product.discount) / 100) *
+      (item.product.itemPrice -
+        (item.product.itemPrice * item.product.discount) / 100) *
       item.quantity;
     let productPrice = createProductPrice(price);
 
@@ -118,7 +125,9 @@ function applyDiscount() {
 }
 
 function calculateAndDisplaySubtotal(discount) {
-  subtotalPrice = cartCheckoutItems.totalPrice - (cartCheckoutItems.totalPrice * discount) / 100;
+  subtotalPrice =
+    cartCheckoutItems.totalPrice -
+    (cartCheckoutItems.totalPrice * discount) / 100;
   subtotalValue = subtotalPrice;
   subtotal.innerHTML = `$${subtotalPrice.toFixed(2)}`;
 }

@@ -4,6 +4,12 @@
     "Helvetica Neue", sans-serif;
   width: 100%;
   color: #1e4974;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-content {
+  width: min(100%,1180px);
 }
 
 .header-checkout {
@@ -291,14 +297,15 @@ input[type="email"]::placeholder {
   padding-bottom: 10px;
 }
 
-.product-item p:not(.product-id) {
-  font-size: 0.8em;
+.product-item p:not(.product-id){
+  font-size: .8em;
 }
 
 .product-image {
   position: relative;
   display: inline-block;
-  width: 35%;
+  min-width: 30%;
+  max-width: 35%;
   height: 35%;
 }
 
@@ -319,7 +326,7 @@ input[type="email"]::placeholder {
 }
 
 .product-image img {
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -404,7 +411,6 @@ input[type="email"]::placeholder {
 }
 
 .info {
-  margin-left: 40.5em;
   font-size: 1em;
 }
 
@@ -427,7 +433,7 @@ input[type="email"]::placeholder {
   background-color: #0d3965;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
   .checkout-section {
     flex-direction: column;
     padding: 10px;

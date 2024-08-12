@@ -112,7 +112,7 @@ function displayCards(product, gridElement) {
   <a href="../product-details/product-details.html?details=${productGroup.join("+")}">
     <div class="prod-img"><img src=${product[0].imageURL[1]} alt="${product[0].itemID}"></div>
     <p class="prod-title">${product[0].itemName}</p>
-    ${price}
+    <p class="card-price">${price}</p>
     <div class="prod-view-container">
       <div class="view-all-button">VIEW</div>
     </div>

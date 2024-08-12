@@ -82,13 +82,13 @@
       "stockQty": 120,
       "imageURL": [
         "../database/images/products/Huawei/Mate50Pro/video.mp4",
-        "../database/images/products/Huawei/Mate50Pro/black.jpg",
+        "../database/images/products/Huawei/Mate50Pro/black.png",
         "../database/images/products/Huawei/Mate50Pro/desc1.jpg",
         "../database/images/products/Huawei/Mate50Pro/desc2.webp",
         "../database/images/products/Huawei/Mate50Pro/desc3.jpg",
         "../database/images/products/Huawei/Mate50Pro/orange.png",
-        "../database/images/products/Huawei/Mate50Pro/purple.webp",
-        "../database/images/products/Huawei/Mate50Pro/silver.avif"
+        "../database/images/products/Huawei/Mate50Pro/purple.png",
+        "../database/images/products/Huawei/Mate50Pro/silver.png"
       ],
       "color": ["black", "orange", "purple", "silver"],
       "rating": {}
@@ -103,11 +103,11 @@
       "stockQty": 120,
       "imageURL": [
         "../database/images/products/Huawei/Nova11/video.mp4",
-        "../database/images/products/Huawei/Nova11/black.jpg",
+        "../database/images/products/Huawei/Nova11/black.png",
         "../database/images/products/Huawei/Nova11/desc1.jpg",
         "../database/images/products/Huawei/Nova11/desc2.png",
-        "../database/images/products/Huawei/Nova11/gold.webp",
-        "../database/images/products/Huawei/Nova11/green.webp"
+        "../database/images/products/Huawei/Nova11/gold.png",
+        "../database/images/products/Huawei/Nova11/green.png"
       ],
       "color": ["black", "gold", "green"],
       "rating": {}
@@ -122,12 +122,12 @@
       "stockQty": 120,
       "imageURL": [
         "../database/images/products/Huawei/P60Pro/video.mp4",
-        "../database/images/products/Huawei/P60Pro/black.jpeg",
+        "../database/images/products/Huawei/P60Pro/black.png",
         "../database/images/products/Huawei/P60Pro/desc1.jpg",
         "../database/images/products/Huawei/P60Pro/desc2.webp",
-        "../database/images/products/Huawei/P60Pro/emerald-green.jpg",
-        "../database/images/products/Huawei/P60Pro/purple.jpg",
-        "../database/images/products/Huawei/P60Pro/rococo-pearl.webp"
+        "../database/images/products/Huawei/P60Pro/emerald-green.png",
+        "../database/images/products/Huawei/P60Pro/purple.png",
+        "../database/images/products/Huawei/P60Pro/rococo-pearl.png"
       ],
       "color": ["black", "emerald-green", "purple", "rococo-pearl"],
       "rating": {}
@@ -142,7 +142,7 @@
       "stockQty": 75,
       "imageURL": [
         "../database/images/products/Infinix/GT20Pro5G/video.mp4",
-        "../database/images/products/Infinix/GT20Pro5G/mecha-blue.jpg",
+        "../database/images/products/Infinix/GT20Pro5G/mecha-blue.png",
         "../database/images/products/Infinix/GT20Pro5G/desc1.jpg",
         "../database/images/products/Infinix/GT20Pro5G/desc2.jpg",
         "../database/images/products/Infinix/GT20Pro5G/desc3.jpg",
@@ -162,9 +162,9 @@
       "stockQty": 0,
       "imageURL": [
         "../database/images/products/Infinix/Note40Pro5G/video.mp4",
-        "../database/images/products/Infinix/Note40Pro5G/titan-gold.jpg",
+        "../database/images/products/Infinix/Note40Pro5G/titan-gold.png",
         "../database/images/products/Infinix/Note40Pro5G/desc1.jpg",
-        "../database/images/products/Infinix/Note40Pro5G/vintage-green.jpg"
+        "../database/images/products/Infinix/Note40Pro5G/vintage-green.png"
       ],
       "color": ["titan-gold", "vintage-green"],
       "rating": {}
@@ -180,14 +180,13 @@
       "stockQty": 100,
       "imageURL": [
         "../database/images/products/Infinix/Smart8/video.mp4",
-        "../database/images/products/Infinix/Smart8/galaxy-white.jpg",
+        "../database/images/products/Infinix/Smart8/galaxy-white.png",
         "../database/images/products/Infinix/Smart8/desc1.jpg",
         "../database/images/products/Infinix/Smart8/desc2.jpg",
-        "../database/images/products/Infinix/Smart8/rainbow-blue.jpg",
-        "../database/images/products/Infinix/Smart8/shiny-gold.jpg",
-        "../database/images/products/Infinix/Smart8/timber-black.jpg"
+        "../database/images/products/Infinix/Smart8/rainbow-blue.png",
+        "../database/images/products/Infinix/Smart8/timber-black.png"
       ],
-      "color": ["galaxy-white","rainbow-blue","shiny-gold","timber-black"],
+      "color": ["galaxy-white","rainbow-blue","timber-black"],
       "rating": {}
     }
     ,
@@ -201,10 +200,10 @@
       "stockQty": 200,
       "imageURL": [
         "../database/images/products/iPhone/14Pro/video.mp4",
-        "../database/images/products/iPhone/14Pro/space-black.jpg",
-        "../database/images/products/iPhone/14Pro/deep-purple.jpg",
-        "../database/images/products/iPhone/14Pro/gold.jpg",
-        "../database/images/products/iPhone/14Pro/silver.jpg"
+        "../database/images/products/iPhone/14Pro/space-black.png",
+        "../database/images/products/iPhone/14Pro/deep-purple.png",
+        "../database/images/products/iPhone/14Pro/gold.png",
+        "../database/images/products/iPhone/14Pro/silver.png"
       ],
       "color": ["space-black","deep-purple","gold","silver"],
       "rating": {}
@@ -220,13 +219,13 @@
       "stockQty": 200,
       "imageURL": [
         "../database/images/products/iPhone/15Plus/video.mp4",
-        "../database/images/products/iPhone/15Plus/black.jpg",
+        "../database/images/products/iPhone/15Plus/black.png",
         "../database/images/products/iPhone/15Plus/desc1.jpg",
         "../database/images/products/iPhone/15Plus/desc2.jpg",
         "../database/images/products/iPhone/15Plus/desc3.jpg",
-        "../database/images/products/iPhone/15Plus/blue.jpg",
-        "../database/images/products/iPhone/15Plus/green.jpg",
-        "../database/images/products/iPhone/15Plus/yellow.jpg"
+        "../database/images/products/iPhone/15Plus/blue.png",
+        "../database/images/products/iPhone/15Plus/green.png",
+        "../database/images/products/iPhone/15Plus/yellow.png"
       ],
       "color": ["black","blue","green","yellow"],
       "rating": {}
@@ -242,12 +241,12 @@
       "stockQty": 200,
       "imageURL": [
         "../database/images/products/iPhone/15ProMax/video.mp4",
-        "../database/images/products/iPhone/15ProMax/black-titanium.jpg",
-        "../database/images/products/iPhone/15ProMax/blue-titanium.jpg",
+        "../database/images/products/iPhone/15ProMax/black-titanium.png",
+        "../database/images/products/iPhone/15ProMax/blue-titanium.png",
         "../database/images/products/iPhone/15ProMax/desc1.jpg",
         "../database/images/products/iPhone/15ProMax/desc2.jpg",
-        "../database/images/products/iPhone/15ProMax/natural-titanium.jpg",
-        "../database/images/products/iPhone/15ProMax/white-titanium.jpg"
+        "../database/images/products/iPhone/15ProMax/natural-titanium.png",
+        "../database/images/products/iPhone/15ProMax/white-titanium.png"
       ],
       "color": ["black-titanium","blue-titanium","natural-titanium","white-titanium"],
       "rating": {}
@@ -263,11 +262,11 @@
       "stockQty": 200,
       "imageURL": [
         "../database/images/products/Nothing/CMFPhone1/video.mp4",
-        "../database/images/products/Nothing/CMFPhone1/black.jpg",
+        "../database/images/products/Nothing/CMFPhone1/black.png",
         "../database/images/products/Nothing/CMFPhone1/desc1.jpg",
         "../database/images/products/Nothing/CMFPhone1/desc2.jpg",
         "../database/images/products/Nothing/CMFPhone1/desc3.jpg",
-        "../database/images/products/Nothing/CMFPhone1/light-green.jpg"
+        "../database/images/products/Nothing/CMFPhone1/light-green.png"
       ],
       "color": ["black","light-green"],
       "rating": {}
@@ -283,8 +282,8 @@
       "stockQty": 200,
       "imageURL": [
         "../database/images/products/Nothing/Phone(2)/video.mp4",
-        "../database/images/products/Nothing/Phone(2)/white.jpg",
-        "../database/images/products/Nothing/Phone(2)/dark-grey.jpg",
+        "../database/images/products/Nothing/Phone(2)/white.png",
+        "../database/images/products/Nothing/Phone(2)/dark-grey.png",
         "../database/images/products/Nothing/Phone(2)/desc1.jpg",
         "../database/images/products/Nothing/Phone(2)/desc2.jpg",
         "../database/images/products/Nothing/Phone(2)/desc3.jpg"
@@ -303,8 +302,8 @@
       "stockQty": 200,
       "imageURL": [
         "../database/images/products/Nothing/Phone(2a)/video.mp4",
-        "../database/images/products/Nothing/Phone(2a)/milk.jpg",
-        "../database/images/products/Nothing/Phone(2a)/black.jpg",
+        "../database/images/products/Nothing/Phone(2a)/milk.png",
+        "../database/images/products/Nothing/Phone(2a)/black.png",
         "../database/images/products/Nothing/Phone(2a)/desc1.jpg",
         "../database/images/products/Nothing/Phone(2a)/desc2.jpg",
         "../database/images/products/Nothing/Phone(2a)/desc3.jpg",
@@ -324,10 +323,10 @@
       "stockQty": 100,
       "imageURL": [
         "../database/images/products/OnePlus/12R/video.mp4",
-        "../database/images/products/OnePlus/12R/cool-blue.jpg",
+        "../database/images/products/OnePlus/12R/cool-blue.png",
         "../database/images/products/OnePlus/12R/desc1.jpg",
         "../database/images/products/OnePlus/12R/desc2.jpg",
-        "../database/images/products/OnePlus/12R/iron-grey.jpg",
+        "../database/images/products/OnePlus/12R/iron-grey.png",
         "../database/images/products/OnePlus/12R/desc3.jpg"
       ],
       "color": ["cool-blue","iron-grey"],
@@ -344,7 +343,7 @@
       "stockQty": 100,
       "imageURL": [
         "../database/images/products/OnePlus/NordN305G/video.mp4",
-        "../database/images/products/OnePlus/NordN305G/chromatic-grey.jpg",
+        "../database/images/products/OnePlus/NordN305G/chromatic-grey.png",
         "../database/images/products/OnePlus/NordN305G/desc1.jpg",
         "../database/images/products/OnePlus/NordN305G/desc2.jpg",
         "../database/images/products/OnePlus/NordN305G/desc3.jpg",
@@ -365,12 +364,12 @@
       "stockQty": 70,
       "imageURL": [
         "../database/images/products/OnePlus/Open/video.mp4",
-        "../database/images/products/OnePlus/Open/emerald-dusk.jpg",
+        "../database/images/products/OnePlus/Open/emerald-dusk.png",
         "../database/images/products/OnePlus/Open/desc1.jpg",
         "../database/images/products/OnePlus/Open/desc2.jpg",
         "../database/images/products/OnePlus/Open/desc3.jpg",
         "../database/images/products/OnePlus/Open/desc4.jpg",
-        "../database/images/products/OnePlus/Open/voyager-black.jpg"
+        "../database/images/products/OnePlus/Open/voyager-black.png"
       ],
       "color": ["emerald-dusk","voyager-black"],
       "rating": {}
@@ -386,13 +385,13 @@
       "stockQty": 75,
       "imageURL": [
         "../database/images/products/Samsung/A55/video.mp4",
-        "../database/images/products/Samsung/A55/awesome-iceblue.webp",
-        "../database/images/products/Samsung/A55/awesome-lemon.avif",
+        "../database/images/products/Samsung/A55/awesome-iceblue.png",
+        "../database/images/products/Samsung/A55/awesome-lemon.png",
         "../database/images/products/Samsung/A55/desc1.webp",
         "../database/images/products/Samsung/A55/desc2.avif",
         "../database/images/products/Samsung/A55/desc3.avif",
-        "../database/images/products/Samsung/A55/awesome-lilac.webp",
-        "../database/images/products/Samsung/A55/awesome-navy.avif"
+        "../database/images/products/Samsung/A55/awesome-lilac.png",
+        "../database/images/products/Samsung/A55/awesome-navy.png"
       ],
       "color": ["awesome-iceblue","awesome-lemon","awesome-lilac","awesome-navy"],
       "rating": {}
@@ -408,11 +407,11 @@
       "stockQty": 155,
       "imageURL": [
         "../database/images/products/Samsung/S24/video.mp4",
-        "../database/images/products/Samsung/S24/onyx-black.jpg",
-        "../database/images/products/Samsung/S24/sapphire-blue.jpg",
-        "../database/images/products/Samsung/S24/jade-green.jpg",
-        "../database/images/products/Samsung/S24/marble-gray.jpg",
-        "../database/images/products/Samsung/S24/sandstone-orange.jpg",
+        "../database/images/products/Samsung/S24/onyx-black.png",
+        "../database/images/products/Samsung/S24/sapphire-blue.png",
+        "../database/images/products/Samsung/S24/jade-green.png",
+        "../database/images/products/Samsung/S24/marble-gray.png",
+        "../database/images/products/Samsung/S24/sandstone-orange.png",
         "../database/images/products/Samsung/S24/desc1.jpg",
         "../database/images/products/Samsung/S24/desc2.jpg",
         "../database/images/products/Samsung/S24/desc3.webp"
@@ -431,10 +430,10 @@
       "stockQty": 150,
       "imageURL": [
         "../database/images/products/Samsung/S24Ultra/video.mp4",
-        "../database/images/products/Samsung/S24Ultra/titanium-black.jpg",
-        "../database/images/products/Samsung/S24Ultra/titanium-gray.jpg",
-        "../database/images/products/Samsung/S24Ultra/titanium-violet.jpg",
-        "../database/images/products/Samsung/S24Ultra/titanium-yellow.jpg",
+        "../database/images/products/Samsung/S24Ultra/titanium-black.png",
+        "../database/images/products/Samsung/S24Ultra/titanium-gray.png",
+        "../database/images/products/Samsung/S24Ultra/titanium-violet.png",
+        "../database/images/products/Samsung/S24Ultra/titanium-yellow.png",
         "../database/images/products/Samsung/S24Ultra/desc1.jpg",
         "../database/images/products/Samsung/S24Ultra/desc2.jpg",
         "../database/images/products/Samsung/S24Ultra/desc3.jpg",
@@ -455,8 +454,8 @@
       "stockQty": 150,
       "imageURL": [
         "../database/images/products/Tecno/Camon20Pro/video.mp4",
-        "../database/images/products/Tecno/Camon20Pro/black.webp",
-        "../database/images/products/Tecno/Camon20Pro/blue.webp",
+        "../database/images/products/Tecno/Camon20Pro/black.png",
+        "../database/images/products/Tecno/Camon20Pro/blue.png",
         "../database/images/products/Tecno/Camon20Pro/desc1.jpg",
         "../database/images/products/Tecno/Camon20Pro/desc2.png",
         "../database/images/products/Tecno/Camon20Pro/desc3.jpg"
@@ -475,8 +474,8 @@
       "stockQty": 150,
       "imageURL": [
         "../database/images/products/Tecno/PhantomX2Pro/video.mp4",
-        "../database/images/products/Tecno/PhantomX2Pro/mars-orange.webp",
-        "../database/images/products/Tecno/PhantomX2Pro/stardust-grey.webp",
+        "../database/images/products/Tecno/PhantomX2Pro/mars-orange.png",
+        "../database/images/products/Tecno/PhantomX2Pro/stardust-grey.png",
         "../database/images/products/Tecno/PhantomX2Pro/desc1.jpg",
         "../database/images/products/Tecno/PhantomX2Pro/desc2.webp",
         "../database/images/products/Tecno/PhantomX2Pro/desc3.jpg",
@@ -496,8 +495,8 @@
       "stockQty": 150,
       "imageURL": [
         "../database/images/products/Tecno/Pova6Pro/video.mp4",
-        "../database/images/products/Tecno/Pova6Pro/meteorite-grey.webp",
-        "../database/images/products/Tecno/Pova6Pro/comet-green.webp",
+        "../database/images/products/Tecno/Pova6Pro/meteorite-grey.png",
+        "../database/images/products/Tecno/Pova6Pro/comet-green.png",
         "../database/images/products/Tecno/Pova6Pro/desc1.jpeg",
         "../database/images/products/Tecno/Pova6Pro/desc2.png",
         "../database/images/products/Tecno/Pova6Pro/desc3.jpg"
