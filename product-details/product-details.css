@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.details-wrapper {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  background-color: #fff;
+  gap: 1rem;
+  width: 100%;
+  padding: 3.5rem 1.5rem;
+}
+
+.details-inner-wrapper {
+  width: min(100%, 1180px);
+  display: flex;
+  align-items: top;
+  gap: 2rem;
+  justify-content: center;
+  padding: 3.5rem 1.5rem;
+}
+
+.details-inner-wrapper > * {
+  flex: 1 1;
+}
+
+.details-left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+#product-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  /* cursor: pointer; */
+  position: relative;
+}
+
+#product-image-container img {
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+#product-arrow-left, #product-arrow-right{
+  z-index: 50;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(30, 73, 116,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  color: #1e4974;
+  border-radius: 50px;
+  cursor: pointer;
+  text-shadow: #fff 0 1px 5px, #fff 0 -1px 5px;
+}
+
+#product-arrow-left {
+  left: 0;
+}
+#product-arrow-right {
+  right: 0;
+}
+
+.image-pagination-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 50%;
+}
+
+.pagination-button {
+  background-color: #d9d9d9;
+  opacity: 1;
+  border: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.pagination-button:hover {
+  background-color: #1e4974;
+}
+
+.pagination-scale-up {
+  background-color: #1e4974;
+  scale: 1.25;
+}
+
+.details-right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Inter", sans-serif;
+}
+
+.details-right-container > * {
+  flex: 1 1;
+}
+
+.details-right-container h1 {
+  text-wrap: wrap;
+  font-size: 1.7rem;
+}
+
+.product-description {  
+  margin-left: 2rem;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+  max-width: 90%;
+}
+
+.product-description li {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.product-description h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.product-price {
+  font-size: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+#original-price {
+  text-decoration: line-through;
+}
+
+#item-id {
+  font-size: 0.875rem;
+  margin-top: 1rem;
+}
+
+.product-options {
+  margin-top: 1rem;
+}
+
+
+.color-circle::after {
+  content: attr(data-hover-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-125%);
+  background-color: #1e4974;
+  color: #fff;
+  padding: 0.375rem 1rem;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+
+.color-circle::after {
+  transform: translate(-20%, -125%);
+  padding: 0.2rem 0.6rem;
+  font-size: small;
+}
+
+.color-circle:hover::after {
+  opacity: 1;
+}
+
+.color-container {
+  display: flex;
+  margin: 10px 0 0;
+}
+
+.color-circle {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 50%;
+  border: 3px solid #2c2c2c;
+  margin: 10px;
+}
+
+.color-circle:hover {
+  transform: scale(120%);
+}
+
+.chosen-color {
+  text-transform: capitalize;
+}
+
+#add-to-cart {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #1e4974;
+  padding: 16px 20px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.checkout-features {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.checkout-features span {
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.1rem;
+  margin-right: 1rem;
+}
+
+.checkout-features svg {
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+}
+
+video {
+  width: 100%;
+  display: block;
+}
+
+@media (width < 815px) {
+  
+  .details-inner-wrapper {
+    flex-direction: column;
+  }
+  #product-arrow-left, #product-arrow-right {
+    width: 25px;
+  }
+}
+

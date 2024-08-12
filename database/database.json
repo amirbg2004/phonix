@@ -1,0 +1,509 @@
+{
+  "accounts": [],
+  "products": [
+    {
+      "itemType": "google",
+      "itemID": "google-pixel-8",
+      "itemName": "Google Pixel 8 - Unlocked Android Smartphone with Advanced Pixel Camera, 24-Hour Battery, and Powerful Security - 128 GB",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 699,
+      "discount": 21,
+      "stockQty": 150,
+      "imageURL": [
+        "../database/images/products/Google/Pixel8/video.mp4",
+        "../database/images/products/Google/Pixel8/bay.jpg",
+        "../database/images/products/Google/Pixel8/desc1.jpg",
+        "../database/images/products/Google/Pixel8/desc2.jpg",
+        "../database/images/products/Google/Pixel8/desc3.jpg",
+        "../database/images/products/Google/Pixel8/desc4.jpg",
+        "../database/images/products/Google/Pixel8/desc5.jpg",
+        "../database/images/products/Google/Pixel8/hazel.jpg",
+        "../database/images/products/Google/Pixel8/obsidian.jpg",
+        "../database/images/products/Google/Pixel8/porcelain.jpg",
+        "../database/images/products/Google/Pixel8/rose.jpg"
+      ],
+      "color": ["bay", "hazel", "obsidian", "porcelain", "rose"],
+      "rating": {}
+    },
+    {
+      "itemType": "google",
+      "itemID": "google-pixel-8-pro",
+      "itemName": "Google Pixel 8 Pro - Unlocked Android Smartphone with Advanced Pixel Camera, 24-Hour Battery, and Powerful Security - 128 GB",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 699,
+      "discount": 21,
+      "stockQty": 150,
+      "imageURL": [
+        "../database/images/products/Google/Pixel8Pro/video.mp4",
+        "../database/images/products/Google/Pixel8Pro/bay.jpg",
+        "../database/images/products/Google/Pixel8Pro/desc1.jpg",
+        "../database/images/products/Google/Pixel8Pro/desc2.jpg",
+        "../database/images/products/Google/Pixel8Pro/desc3.jpg",
+        "../database/images/products/Google/Pixel8Pro/desc4.jpg",
+        "../database/images/products/Google/Pixel8Pro/desc5.jpg",
+        "../database/images/products/Google/Pixel8Pro/hazel.jpg",
+        "../database/images/products/Google/Pixel8Pro/obsidian.jpg",
+        "../database/images/products/Google/Pixel8Pro/porcelain.jpg",
+        "../database/images/products/Google/Pixel8Pro/rose.jpg"
+      ],
+      "color": ["bay", "hazel", "obsidian", "porcelain", "rose"],
+      "rating": {}
+    },
+    {
+      "itemType": "google",
+      "itemID": "google-pixel-8a",
+      "itemName": "Google Pixel 8a - Unlocked Android Smartphone with Advanced Pixel Camera, 24-Hour Battery, and Powerful Security - 128 GB",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 699,
+      "discount": 21,
+      "stockQty": 110,
+      "imageURL": [
+        "../database/images/products/Google/Pixel8a/video.mp4",
+        "../database/images/products/Google/Pixel8a/aloe.jpg",
+        "../database/images/products/Google/Pixel8a/bay.jpg",
+        "../database/images/products/Google/Pixel8a/desc1.jpg",
+        "../database/images/products/Google/Pixel8a/desc2.jpg",
+        "../database/images/products/Google/Pixel8a/desc3.jpg",
+        "../database/images/products/Google/Pixel8a/desc4.jpg",
+        "../database/images/products/Google/Pixel8a/desc5.jpg",
+        "../database/images/products/Google/Pixel8a/obsidian.jpg",
+        "../database/images/products/Google/Pixel8a/porcelain.jpg"
+      ],
+      "color": ["aloe", "bay", "obsidian", "porcelain"],
+      "rating": {}
+    },
+    {
+      "itemType": "huawei",
+      "itemID": "huawei-mate-50-pro",
+      "itemName": "HUAWEI Mate 50 Pro Dual-SIM 256GB ROM + 8GB RAM (Only GSM | No CDMA) Factory Unlocked 4G/LTE Smartphone - International Version - 256 GB",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 720,
+      "discount": 0,
+      "stockQty": 120,
+      "imageURL": [
+        "../database/images/products/Huawei/Mate50Pro/video.mp4",
+        "../database/images/products/Huawei/Mate50Pro/black.jpg",
+        "../database/images/products/Huawei/Mate50Pro/desc1.jpg",
+        "../database/images/products/Huawei/Mate50Pro/desc2.webp",
+        "../database/images/products/Huawei/Mate50Pro/desc3.jpg",
+        "../database/images/products/Huawei/Mate50Pro/orange.png",
+        "../database/images/products/Huawei/Mate50Pro/purple.webp",
+        "../database/images/products/Huawei/Mate50Pro/silver.avif"
+      ],
+      "color": ["black", "orange", "purple", "silver"],
+      "rating": {}
+    },
+    {
+      "itemType": "huawei",
+      "itemID": "huawei-nova-11",
+      "itemName": "HUAWEI nova 11 SmartPhone + Free HUAWEI WatchFit, 6.78-inch OLED Curved Display, 60MP Front Portrait Dual Camera, Durable Kunlun Glass, 100W HUAWEI SuperCharge Turbo, 8GB+256GB",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 820,
+      "discount": 5,
+      "stockQty": 120,
+      "imageURL": [
+        "../database/images/products/Huawei/Nova11/video.mp4",
+        "../database/images/products/Huawei/Nova11/black.jpg",
+        "../database/images/products/Huawei/Nova11/desc1.jpg",
+        "../database/images/products/Huawei/Nova11/desc2.png",
+        "../database/images/products/Huawei/Nova11/gold.webp",
+        "../database/images/products/Huawei/Nova11/green.webp"
+      ],
+      "color": ["black", "gold", "green"],
+      "rating": {}
+    },
+    {
+      "itemType": "huawei",
+      "itemID": "huawei-p60-pro",
+      "itemName": "Huawei P60 Pro Dual SIM 8GB + 256GB Global Model MNA-LX9 Factory Unlocked Mobile Cellphone",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 1770,
+      "discount": 2,
+      "stockQty": 120,
+      "imageURL": [
+        "../database/images/products/Huawei/P60Pro/video.mp4",
+        "../database/images/products/Huawei/P60Pro/black.jpeg",
+        "../database/images/products/Huawei/P60Pro/desc1.jpg",
+        "../database/images/products/Huawei/P60Pro/desc2.webp",
+        "../database/images/products/Huawei/P60Pro/emerald-green.jpg",
+        "../database/images/products/Huawei/P60Pro/purple.jpg",
+        "../database/images/products/Huawei/P60Pro/rococo-pearl.webp"
+      ],
+      "color": ["black", "emerald-green", "purple", "rococo-pearl"],
+      "rating": {}
+    },
+    {
+      "itemType": "infinix",
+      "itemID": "infinix-gt-20-pro-5g",
+      "itemName": "Infinix GT 20 Pro 5G Gaming Smartphone Dual Sim 256GB (12GB+12GBRAM) - UAE Version",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 1549,
+      "discount": 10,
+      "stockQty": 75,
+      "imageURL": [
+        "../database/images/products/Infinix/GT20Pro5G/video.mp4",
+        "../database/images/products/Infinix/GT20Pro5G/mecha-blue.jpg",
+        "../database/images/products/Infinix/GT20Pro5G/desc1.jpg",
+        "../database/images/products/Infinix/GT20Pro5G/desc2.jpg",
+        "../database/images/products/Infinix/GT20Pro5G/desc3.jpg",
+        "../database/images/products/Infinix/GT20Pro5G/desc4.jpg",
+        "../database/images/products/Infinix/GT20Pro5G/desc5.jpg"
+      ],
+      "color": ["mecha-blue"],
+      "rating": {}
+    },
+    {
+      "itemType": "infinix",
+      "itemID": "infinix-note-40-pro-5g",
+      "itemName": "Infinix Note 40 Pro 5G, 8GB+8GB RAM, 256GB ROM, 108MP Rear Camera, 120Hz FHD+ AMOLED Display, 5000mAh, 45W Charge, 20W Wireless Charge + FREE GIFTS (XE23 TWS & XP03 Power Bank)",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 1300,
+      "discount": 15,
+      "stockQty": 0,
+      "imageURL": [
+        "../database/images/products/Infinix/Note40Pro5G/video.mp4",
+        "../database/images/products/Infinix/Note40Pro5G/titan-gold.jpg",
+        "../database/images/products/Infinix/Note40Pro5G/desc1.jpg",
+        "../database/images/products/Infinix/Note40Pro5G/vintage-green.jpg"
+      ],
+      "color": ["titan-gold", "vintage-green"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "infinix",
+      "itemID": "infinix-smart-8",
+      "itemName": "Infinix Smart 8 8GB RAM 128GB Storage | 5000 mAh Heavy Battery | Android 13 Go | 50MP + AI Camera | Dual Sim",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 10999,
+      "discount": 28,
+      "stockQty": 100,
+      "imageURL": [
+        "../database/images/products/Infinix/Smart8/video.mp4",
+        "../database/images/products/Infinix/Smart8/galaxy-white.jpg",
+        "../database/images/products/Infinix/Smart8/desc1.jpg",
+        "../database/images/products/Infinix/Smart8/desc2.jpg",
+        "../database/images/products/Infinix/Smart8/rainbow-blue.jpg",
+        "../database/images/products/Infinix/Smart8/shiny-gold.jpg",
+        "../database/images/products/Infinix/Smart8/timber-black.jpg"
+      ],
+      "color": ["galaxy-white","rainbow-blue","shiny-gold","timber-black"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "iphone",
+      "itemID": "iphone-14-pro",
+      "itemName": "Apple iPhone 14 Pro, 128GB",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 734.89,
+      "discount": 0,
+      "stockQty": 200,
+      "imageURL": [
+        "../database/images/products/iPhone/14Pro/video.mp4",
+        "../database/images/products/iPhone/14Pro/space-black.jpg",
+        "../database/images/products/iPhone/14Pro/deep-purple.jpg",
+        "../database/images/products/iPhone/14Pro/gold.jpg",
+        "../database/images/products/iPhone/14Pro/silver.jpg"
+      ],
+      "color": ["space-black","deep-purple","gold","silver"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "iphone",
+      "itemID": "iphone-15-plus",
+      "itemName": "Apple iPhone 15 Plus (128 GB)",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 1068,
+      "discount": 9,
+      "stockQty": 200,
+      "imageURL": [
+        "../database/images/products/iPhone/15Plus/video.mp4",
+        "../database/images/products/iPhone/15Plus/black.jpg",
+        "../database/images/products/iPhone/15Plus/desc1.jpg",
+        "../database/images/products/iPhone/15Plus/desc2.jpg",
+        "../database/images/products/iPhone/15Plus/desc3.jpg",
+        "../database/images/products/iPhone/15Plus/blue.jpg",
+        "../database/images/products/iPhone/15Plus/green.jpg",
+        "../database/images/products/iPhone/15Plus/yellow.jpg"
+      ],
+      "color": ["black","blue","green","yellow"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "iphone",
+      "itemID": "iphone-15-pro-max",
+      "itemName": "Apple iPhone 15 Pro Max / 256GB",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 1050,
+      "discount": 10,
+      "stockQty": 200,
+      "imageURL": [
+        "../database/images/products/iPhone/15ProMax/video.mp4",
+        "../database/images/products/iPhone/15ProMax/black-titanium.jpg",
+        "../database/images/products/iPhone/15ProMax/blue-titanium.jpg",
+        "../database/images/products/iPhone/15ProMax/desc1.jpg",
+        "../database/images/products/iPhone/15ProMax/desc2.jpg",
+        "../database/images/products/iPhone/15ProMax/natural-titanium.jpg",
+        "../database/images/products/iPhone/15ProMax/white-titanium.jpg"
+      ],
+      "color": ["black-titanium","blue-titanium","natural-titanium","white-titanium"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "nothing",
+      "itemID": "nothing-cmf-phone-1",
+      "itemName": "CMF by Nothing Phone 1, 8/256 GB, 6.67\" AMOLED Screen, MediaTek 7300 Processor, 5000mAh, Rear Cam 50+2MP, Front Cam 16MP, Dual Sim 5G, Extendable Memory upto 2 TB",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 359.50,
+      "discount": 5,
+      "stockQty": 200,
+      "imageURL": [
+        "../database/images/products/Nothing/CMFPhone1/video.mp4",
+        "../database/images/products/Nothing/CMFPhone1/black.jpg",
+        "../database/images/products/Nothing/CMFPhone1/desc1.jpg",
+        "../database/images/products/Nothing/CMFPhone1/desc2.jpg",
+        "../database/images/products/Nothing/CMFPhone1/desc3.jpg",
+        "../database/images/products/Nothing/CMFPhone1/light-green.jpg"
+      ],
+      "color": ["black","light-green"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "nothing",
+      "itemID": "nothing-phone-(2)",
+      "itemName": "Nothing Phone (2) - 256 GB + 12 GB Ram, Glyph Interface, OS 2.0, 50 MP Dual Camera,OIS, 6.7” LTPO OLED Display, 4700mAh Battery, Water Resistant IP54, LTE, GSM only, Android Phone",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 389.50,
+      "discount": 0,
+      "stockQty": 200,
+      "imageURL": [
+        "../database/images/products/Nothing/Phone(2)/video.mp4",
+        "../database/images/products/Nothing/Phone(2)/white.jpg",
+        "../database/images/products/Nothing/Phone(2)/dark-grey.jpg",
+        "../database/images/products/Nothing/Phone(2)/desc1.jpg",
+        "../database/images/products/Nothing/Phone(2)/desc2.jpg",
+        "../database/images/products/Nothing/Phone(2)/desc3.jpg"
+      ],
+      "color": ["white","dark-grey"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "nothing",
+      "itemID": "nothing-phone-(2a)",
+      "itemName": "Nothing Phone (2a) Smartphone Unlocked 5G Android Phone Dimensity 7200 Pro, 50MP Dual Camera cell phone, 6.7'' AMOLED Display, 5000mAh Battery, NFC",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 389.50,
+      "discount": 0,
+      "stockQty": 200,
+      "imageURL": [
+        "../database/images/products/Nothing/Phone(2a)/video.mp4",
+        "../database/images/products/Nothing/Phone(2a)/milk.jpg",
+        "../database/images/products/Nothing/Phone(2a)/black.jpg",
+        "../database/images/products/Nothing/Phone(2a)/desc1.jpg",
+        "../database/images/products/Nothing/Phone(2a)/desc2.jpg",
+        "../database/images/products/Nothing/Phone(2a)/desc3.jpg",
+        "../database/images/products/Nothing/Phone(2a)/desc4.jpg"
+      ],
+      "color": ["milk","black"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "oneplus",
+      "itemID": "oneplus-12r",
+      "itemName": "Oneplus 12R Dual-SIM 16GB RAM, 256GB 5G",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 1679,
+      "discount": 0,
+      "stockQty": 100,
+      "imageURL": [
+        "../database/images/products/OnePlus/12R/video.mp4",
+        "../database/images/products/OnePlus/12R/cool-blue.jpg",
+        "../database/images/products/OnePlus/12R/desc1.jpg",
+        "../database/images/products/OnePlus/12R/desc2.jpg",
+        "../database/images/products/OnePlus/12R/iron-grey.jpg",
+        "../database/images/products/OnePlus/12R/desc3.jpg"
+      ],
+      "color": ["cool-blue","iron-grey"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "oneplus",
+      "itemID": "oneplus-nord-n30-5g",
+      "itemName": "OnePlus Nord N30 5G | Unlocked Dual-SIM Android Smart Phone | 6.7\" LCD Display | 8 +128GB | 5000 mAh Battery | 50W Fast Charging | 108MP Camera ",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 299.99,
+      "discount": 0,
+      "stockQty": 100,
+      "imageURL": [
+        "../database/images/products/OnePlus/NordN305G/video.mp4",
+        "../database/images/products/OnePlus/NordN305G/chromatic-grey.jpg",
+        "../database/images/products/OnePlus/NordN305G/desc1.jpg",
+        "../database/images/products/OnePlus/NordN305G/desc2.jpg",
+        "../database/images/products/OnePlus/NordN305G/desc3.jpg",
+        "../database/images/products/OnePlus/NordN305G/desc4.jpg",
+        "../database/images/products/OnePlus/NordN305G/desc5.jpg"
+      ],
+      "color": ["chromatic-grey"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "oneplus",
+      "itemID": "oneplus-open",
+      "itemName": "OnePlus Open, 16GB RAM+512GB, Dual-SIM, US Factory Unlocked Android Smartphone, 4805 mAh Battery, 67W Fast Charging, Hasselblad Camera, 120Hz Fluid Display",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 1679.99,
+      "discount": 0,
+      "stockQty": 70,
+      "imageURL": [
+        "../database/images/products/OnePlus/Open/video.mp4",
+        "../database/images/products/OnePlus/Open/emerald-dusk.jpg",
+        "../database/images/products/OnePlus/Open/desc1.jpg",
+        "../database/images/products/OnePlus/Open/desc2.jpg",
+        "../database/images/products/OnePlus/Open/desc3.jpg",
+        "../database/images/products/OnePlus/Open/desc4.jpg",
+        "../database/images/products/OnePlus/Open/voyager-black.jpg"
+      ],
+      "color": ["emerald-dusk","voyager-black"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "samsung",
+      "itemID": "samsung-a55",
+      "itemName": "Samsung Galaxy A55 5G, Android Smartphone, Dual SIM Mobile Phone, 8GB RAM, 128GB Storage",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 1449,
+      "discount": 28,
+      "stockQty": 75,
+      "imageURL": [
+        "../database/images/products/Samsung/A55/video.mp4",
+        "../database/images/products/Samsung/A55/awesome-iceblue.webp",
+        "../database/images/products/Samsung/A55/awesome-lemon.avif",
+        "../database/images/products/Samsung/A55/desc1.webp",
+        "../database/images/products/Samsung/A55/desc2.avif",
+        "../database/images/products/Samsung/A55/desc3.avif",
+        "../database/images/products/Samsung/A55/awesome-lilac.webp",
+        "../database/images/products/Samsung/A55/awesome-navy.avif"
+      ],
+      "color": ["awesome-iceblue","awesome-lemon","awesome-lilac","awesome-navy"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "samsung",
+      "itemID": "samsung-s24",
+      "itemName": "SAMSUNG Galaxy S24 Cell Phone, 256GB AI Smartphone, Unlocked Android, 50MP Camera, Fastest Processor, Long Battery Life, US Version, 2024",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 849.99,
+      "discount": 0,
+      "stockQty": 155,
+      "imageURL": [
+        "../database/images/products/Samsung/S24/video.mp4",
+        "../database/images/products/Samsung/S24/onyx-black.jpg",
+        "../database/images/products/Samsung/S24/sapphire-blue.jpg",
+        "../database/images/products/Samsung/S24/jade-green.jpg",
+        "../database/images/products/Samsung/S24/marble-gray.jpg",
+        "../database/images/products/Samsung/S24/sandstone-orange.jpg",
+        "../database/images/products/Samsung/S24/desc1.jpg",
+        "../database/images/products/Samsung/S24/desc2.jpg",
+        "../database/images/products/Samsung/S24/desc3.webp"
+      ],
+      "color": ["onyx-black","sapphire-blue","jade-green","marble-gray","sandstone-orange"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "samsung",
+      "itemID": "samsung-s24-ultra",
+      "itemName": "SAMSUNG Galaxy S24 Ultra Cell Phone, 256GB AI Smartphone, Unlocked Android, 200MP, 100x Zoom Cameras, Long Battery Life, S Pen, US Version, 2024",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 1249,
+      "discount": 0,
+      "stockQty": 150,
+      "imageURL": [
+        "../database/images/products/Samsung/S24Ultra/video.mp4",
+        "../database/images/products/Samsung/S24Ultra/titanium-black.jpg",
+        "../database/images/products/Samsung/S24Ultra/titanium-gray.jpg",
+        "../database/images/products/Samsung/S24Ultra/titanium-violet.jpg",
+        "../database/images/products/Samsung/S24Ultra/titanium-yellow.jpg",
+        "../database/images/products/Samsung/S24Ultra/desc1.jpg",
+        "../database/images/products/Samsung/S24Ultra/desc2.jpg",
+        "../database/images/products/Samsung/S24Ultra/desc3.jpg",
+        "../database/images/products/Samsung/S24Ultra/desc4.jpg",
+        "../database/images/products/Samsung/S24Ultra/desc5.jpg"
+      ],
+      "color": ["titanium-black","titanium-gray","titanium-violet","titanium-yellow"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "tecno",
+      "itemID": "tecno-camon-20-pro",
+      "itemName": "TECNO Camon 20 Pro 5G (8GB RAM, 128GB Storage)| India's 1st MediaTek Dimensity 8050 Processor | 16GB Expandable RAM | 64MP RGBW(G+P) OIS Rear Camera|6.67 FHD+ Big AMOLED Screen",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 1249,
+      "discount": 0,
+      "stockQty": 150,
+      "imageURL": [
+        "../database/images/products/Tecno/Camon20Pro/video.mp4",
+        "../database/images/products/Tecno/Camon20Pro/black.webp",
+        "../database/images/products/Tecno/Camon20Pro/blue.webp",
+        "../database/images/products/Tecno/Camon20Pro/desc1.jpg",
+        "../database/images/products/Tecno/Camon20Pro/desc2.png",
+        "../database/images/products/Tecno/Camon20Pro/desc3.jpg"
+      ],
+      "color": ["black","blue"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "tecno",
+      "itemID": "tecno-phantom-x2-pro",
+      "itemName": "TECNO Phantom X2 Pro 5G(12GB RAM,256GB Storage) | World's 1st Retractable 50MP Portrait Lens | World's 1st 4nm Dimensity 9000 5G Processor",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 1249,
+      "discount": 0,
+      "stockQty": 150,
+      "imageURL": [
+        "../database/images/products/Tecno/PhantomX2Pro/video.mp4",
+        "../database/images/products/Tecno/PhantomX2Pro/mars-orange.webp",
+        "../database/images/products/Tecno/PhantomX2Pro/stardust-grey.webp",
+        "../database/images/products/Tecno/PhantomX2Pro/desc1.jpg",
+        "../database/images/products/Tecno/PhantomX2Pro/desc2.webp",
+        "../database/images/products/Tecno/PhantomX2Pro/desc3.jpg",
+        "../database/images/products/Tecno/PhantomX2Pro/desc4.jpg"
+      ],
+      "color": ["mars-orange","stardust-grey"],
+      "rating": {}
+    }
+    ,
+    {
+      "itemType": "tecno",
+      "itemID": "tecno-pova-6-pro",
+      "itemName": "Tecno POVA 6 PRO 5G (8GB+256GB) | 108MP Camera + 32MP Selfie Camera | 120Hz Dot-in AMOLED Display | Dual Speakers with Dolby Atmos | 6000mAh & 70W Charger | Arc Interface",
+      "itemDescription": "<h2>Features:</h2><ul><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li><li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eveniet?</li></ul>",
+      "itemPrice": 238.19,
+      "discount": 0,
+      "stockQty": 150,
+      "imageURL": [
+        "../database/images/products/Tecno/Pova6Pro/video.mp4",
+        "../database/images/products/Tecno/Pova6Pro/meteorite-grey.webp",
+        "../database/images/products/Tecno/Pova6Pro/comet-green.webp",
+        "../database/images/products/Tecno/Pova6Pro/desc1.jpeg",
+        "../database/images/products/Tecno/Pova6Pro/desc2.png",
+        "../database/images/products/Tecno/Pova6Pro/desc3.jpg"
+      ],
+      "color": ["meteorite-grey","comet-green"],
+      "rating": {}
+    }
+  ]
+}
