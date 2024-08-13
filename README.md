@@ -15,6 +15,9 @@ Welcome to the **Phonix** repository! This project is a frontend for an e-commer
 - [Sarah Fakih](https://github.com/Sarahfakiih)
 - [Sami Ibrahim](https://github.com/Samiibrahim1)
 
+## 🔗 Website
+
+https://phonixx.netlify.app/
 
 ## 🚀 Features
 
