@@ -113,7 +113,7 @@ document.addEventListener("click", (e) => {
     menuButtons.forEach(
       (btn) => (btn.innerHTML = btn.innerHTML.replace(/<svg[\s\S]*?<\/svg>/g, menuIcon))
     );
-    console.log('umm')
+    console.log("umm");
   }
 });
 
@@ -133,7 +133,6 @@ function checkAccountInUse() {
   const accountBtn = document.querySelector(".lower-navbar a");
   const lowerNavBar = document.querySelector(".lower-navbar .page-width");
   let account = JSON.parse(localStorage.getItem("account-in-use"));
-  
 
   let logout = document.createElement("a");
   if (account) {
@@ -149,18 +148,18 @@ function checkAccountInUse() {
       );
     }
     shoppingBtn.forEach((btn) => (btn.href = "../cart-page/cart.html"));
-    
+
     logout.innerHTML = "Logout";
     logout.addEventListener("click", () => {
-      let allAccounts = JSON.parse(localStorage.getItem('users'));
-      allAccounts.forEach(acc => {
-        if(acc.email ===  account.email){
+      let allAccounts = JSON.parse(localStorage.getItem("users"));
+      allAccounts.forEach((acc) => {
+        if (acc.email === account.email) {
           acc.cart = account.cart;
         }
       });
-      localStorage.setItem('users',JSON.stringify(allAccounts));
+      localStorage.setItem("users", JSON.stringify(allAccounts));
       localStorage.removeItem("account-in-use");
-      window.location.href = "../main-page/index.html";
+      window.location.href = "../index.html";
     });
     lowerNavBar.appendChild(logout);
   } else {
@@ -168,7 +167,7 @@ function checkAccountInUse() {
       logout.remove();
     }
     accountBtn.href = "../login-page/login.html";
-    
+
     shoppingBtn.forEach((btn) => (btn.href = "../login-page/login.html"));
   }
 }

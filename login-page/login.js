@@ -108,7 +108,7 @@ loginForm.addEventListener("submit", (event) => {
           const acc = getAccount(email);
           saveCurrUser(acc);
           loginAlert.style.display = "none";
-          window.location.href = "../main-page/index.html";
+          window.location.href = "../index.html";
         } else {
           let alert = document.createElement("p");
           alert.innerHTML = `Incorrect email or password.`;

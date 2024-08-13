@@ -384,6 +384,7 @@
 }
 
 .prod-title {
+  font-size: 0.75rem;
   font-weight: bold;
   white-space: pre;
   text-wrap: wrap;

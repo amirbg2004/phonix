@@ -129,7 +129,7 @@ form.addEventListener("submit", (event) => {
       const add = addAccount(acc);
       if (add) {
         alertField.style.display = "none";
-        window.location.href = "../main-page/index.html";
+        window.location.href = "../index.html";
       } else {
         let alert = document.createElement("p");
         alert.innerHTML = `Account already created.`;
